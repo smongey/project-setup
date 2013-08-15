@@ -25,7 +25,7 @@ guard :compass
 # guard :concat, type: "css", files: %w(), input_dir: "public/css", output: "public/css/all"
 
 guard 'livereload' do
-  watch(%r{.+\.(erb|haml|slim)$})
+  watch(%r{.+\.(css|html|js)$})
 end
 
 # guard 'sass', :input => 'sass', :output => 'css'
